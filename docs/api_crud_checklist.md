@@ -5,8 +5,8 @@
 - [x] Implementar repositórios usando GORM
 
 ## 2. Usecase/Service Layer
-- [ ] Criar serviços/casos de uso para Filter e FilterType (CRUD)
-- [ ] Implementar regras de negócio básicas
+- [x] Criar serviços/casos de uso para Filter e FilterType (CRUD)
+- [x] Implementar regras de negócio básicas
 
 ## 3. DTOs e Validação
 - [ ] Definir structs DTO para requests/responses
