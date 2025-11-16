@@ -1,0 +1,631 @@
+{
+    "tipos-filtros": {
+        "Região": {
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Ramo": {
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Sub-ramos": {
+            "nomeCurto": null,
+            "pai": "Ramo"
+        },
+        "Funcionalidade": {
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Estado": {
+            "nomeCurto": null,
+            "pai": "Região"
+        }
+    },
+    "filtros": {
+        "Alimentação": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Varejo": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Serviços": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Beleza": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Saúde": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Turismo": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Educação": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Construção": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Tecnologia": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Entretenimento": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Agronegócio": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Logística": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Eventos": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Consultoria": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Automotivo": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Pet Shop": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Imobiliário": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Transporte": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Eletrodomésticos": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Eletrônicos": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Lanchonete": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Alimentação"
+        },
+        "Restaurante": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Alimentação"
+        },
+        "Bar": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Alimentação"
+        },
+        "Padaria": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Alimentação"
+        },
+        "Supermercado": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Varejo"
+        },
+        "Loja de Roupas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Varejo"
+        },
+        "Farmácia": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Varejo"
+        },
+        "Salão de Beleza": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Serviços"
+        },
+        "Oficina": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Serviços"
+        },
+        "Lavanderia": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Serviços"
+        },
+        "Clínica Médica": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Saúde"
+        },
+        "Odontologia": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Saúde"
+        },
+        "Laboratório": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Saúde"
+        },
+        "Agência de Viagens": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Turismo"
+        },
+        "Hotelaria": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Turismo"
+        },
+        "Guias Turísticos": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Turismo"
+        },
+        "Passeios": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Turismo"
+        },
+        "Cursos Livres": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Educação"
+        },
+        "EAD": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Educação"
+        },
+        "Idiomas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Educação"
+        },
+        "Pré-vestibular": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Educação"
+        },
+        "Materiais de Construção": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Construção"
+        },
+        "Serviços de Obras": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Construção"
+        },
+        "Arquitetura": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Construção"
+        },
+        "Reformas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Construção"
+        },
+        "Desenvolvimento de Software": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "TI Corporativo": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "Hardware": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "Suporte Técnico": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "Cinema": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Entretenimento"
+        },
+        "Teatro": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Entretenimento"
+        },
+        "Shows": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Entretenimento"
+        },
+        "Jogos": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Entretenimento"
+        },
+        "Fazendas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Agronegócio"
+        },
+        "Cooperativas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Agronegócio"
+        },
+        "Máquinas Agrícolas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Agronegócio"
+        },
+        "Comercialização": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Agronegócio"
+        },
+        "Cosméticos": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Beleza"
+        },
+        "Estética": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Beleza"
+        },
+        "Cabeleireiro": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Beleza"
+        },
+        "Transporte de Cargas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Logística"
+        },
+        "Armazenagem": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Logística"
+        },
+        "Frete": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Logística"
+        },
+        "Organização de Eventos": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Eventos"
+        },
+        "Buffet": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Eventos"
+        },
+        "Cerimonial": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Eventos"
+        },
+        "Consultoria Financeira": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Consultoria"
+        },
+        "Consultoria RH": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Consultoria"
+        },
+        "Consultoria Jurídica": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Consultoria"
+        },
+        "Peças e Acessórios": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Automotivo"
+        },
+        "Revendas": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Automotivo"
+        },
+        "Produtos para Animais": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Pet Shop"
+        },
+        "Clínica Veterinária": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Pet Shop"
+        },
+        "Imobiliárias": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Imobiliário"
+        },
+        "Corretagem": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Imobiliário"
+        },
+        "Administração de Condomínios": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Imobiliário"
+        },
+        "Norte": {
+            "tipo": "Região",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Nordeste": {
+            "tipo": "Região",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Centro-Oeste": {
+            "tipo": "Região",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Sudeste": {
+            "tipo": "Região",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Sul": {
+            "tipo": "Região",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "SP": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sudeste"
+        },
+        "RJ": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sudeste"
+        },
+        "MG": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sudeste"
+        },
+        "ES": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sudeste"
+        },
+        "BA": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Nordeste"
+        },
+        "PE": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Nordeste"
+        },
+        "CE": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Nordeste"
+        },
+        "AM": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Norte"
+        },
+        "PR": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sul"
+        },
+        "RS": {
+            "tipo": "Estado",
+            "nomeCurto": null,
+            "pai": "Sul"
+        },
+        "Pagamento": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Consulta": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Cadastro": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Relatórios": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Notificações": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Serviços Financeiros": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "E-commerce": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Assinaturas": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Bebidas": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Vinhos": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Bebidas"
+        },
+        "Cervejarias": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Bebidas"
+        },
+        "Food Truck": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Alimentação"
+        },
+        "Delivery": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Marketplace": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Varejo"
+        },
+        "Cloud": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "SaaS": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "DevOps": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "Segurança da Informação": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Tecnologia"
+        },
+        "Telemedicina": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Saúde"
+        },
+        "Bem-Estar": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Saúde Mental": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Bem-Estar"
+        },
+        "Academia": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Bem-Estar"
+        },
+        "Marketing": {
+            "tipo": "Ramo",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Publicidade": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Marketing"
+        },
+        "Design": {
+            "tipo": "Sub-ramos",
+            "nomeCurto": null,
+            "pai": "Marketing"
+        },
+        "Autenticação": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Autorização": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Dashboard": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Exportação": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        },
+        "Integração API": {
+            "tipo": "Funcionalidade",
+            "nomeCurto": null,
+            "pai": null
+        }
+    }
+}
