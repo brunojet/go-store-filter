@@ -1,8 +1,8 @@
 # Checklist para Expor Endpoints CRUD (Filter/FilterType)
 
 ## 1. Repository Layer
-- [ ] Definir interfaces de repositório para Filter e FilterType
-- [ ] Implementar repositórios usando GORM
+- [x] Definir interfaces de repositório para Filter e FilterType
+- [x] Implementar repositórios usando GORM
 
 ## 2. Usecase/Service Layer
 - [ ] Criar serviços/casos de uso para Filter e FilterType (CRUD)
