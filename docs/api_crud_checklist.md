@@ -9,8 +9,8 @@
 - [x] Implementar regras de negócio básicas
 
 ## 3. DTOs e Validação
-- [ ] Definir structs DTO para requests/responses
-- [ ] Adicionar validação de entrada (ex: validator)
+- [x] Definir structs DTO para requests/responses
+- [x] Adicionar validação de entrada (ex: validator)
 
 ## 4. Handler/Controller Layer
 - [ ] Criar handlers HTTP para Filter e FilterType
